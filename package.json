@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.6.6",
+    "tw-elements": "^1.0.0-alpha12"
+  }
+}
