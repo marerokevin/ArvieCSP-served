@@ -41,7 +41,7 @@ CREATE TABLE `accounts` (
   `sss_num` varchar(255) DEFAULT NULL,
   `number_basis` int(11) NOT NULL COMMENT 'for idnumber purposes only',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=143 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=166 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -104,7 +104,30 @@ INSERT INTO `accounts` VALUES
 (139,'ADS2022-11-57-wNoe-K27N','Sarah Jane','Denia','ADS2022-11-49-Cdkc-8tNU','Editha  Rosadia','misisdenia@gmail.com','$2y$10$neCsMBJi9WEX.KWG5MeE7O1x4C4Hs6Jqpjfxq4JcZ4CsK1B2HTGJO','09452203805','2022-11-10 18:39:40','approved','userist','DI11-2Q7O-PmlU','B1 L7, VillaMonteverde Subd., Mulawin Tanza Cavite','','',57),
 (140,'ADS2022-11-58-uf49-djZp','Luzminda','Williams','ADS2022-11-16-bEQ2-gpFq','Leny  Custodio ','luzmindadelavega23@gmail.com0','$2y$10$/WEwULrIHkSJANSHUHfos.Sge5q2lCuMjyJdsF5ey3hxiMO0aadP.','09613303947','2022-11-10 20:33:02','approved','userist','DI11-P9Nj-WKAD','Block30 lot3 landmass park subdivision','','',58),
 (141,'ADS2022-11-59-poH2-CvWG','Mary Jane','Marquez','ADS2022-11-20-MCL4-ey3T','Retchie  Josef','janemary080291@gmail.com','$2y$10$HlQrf2omqYUpMrWDzx/p7.Krh9vi1smGSjR1W432qFo5m8uCn7Pmq','09485187353','2022-11-10 22:12:02','approved','userist','DI11-z1m7-wIPd','San juan II, General trias cavite','','',59),
-(142,'ADS2022-11-60-fcSg-gLDa','Jennelyn','Pujol','ADS2022-11-30-c9xF-Tpod','Rodalyn  Ortega','jennelynpujol@gmail.com','$2y$10$cqpe76FFsoetDmlRAmLaN.APuoby8EgJuP8YKK2Lyn5KMoV7swRQG','09552958166','2022-11-10 22:16:30','approved','userist','DI11-rAC7-C4lS','Section 10 Block 7 Lot 23 Belvedere 3 Brgy. Pasong Kawayan 2 Gen. Trias City, Cavite','486963213000','3390399826',60);
+(142,'ADS2022-11-60-fcSg-gLDa','Jennelyn','Pujol','ADS2022-11-30-c9xF-Tpod','Rodalyn  Ortega','jennelynpujol@gmail.com','$2y$10$cqpe76FFsoetDmlRAmLaN.APuoby8EgJuP8YKK2Lyn5KMoV7swRQG','09552958166','2022-11-10 22:16:30','approved','userist','DI11-rAC7-C4lS','Section 10 Block 7 Lot 23 Belvedere 3 Brgy. Pasong Kawayan 2 Gen. Trias City, Cavite','486963213000','3390399826',60),
+(143,'ADS2022-11-61-i8F0-5dgT','ROMULO','ARENAS','','  ','Februaty24@gmail.com','$2y$10$oLW3IBnRAvH9iL9o6Y6oPOI.lI655rPNH.b5Hyzv12RWmBCuvhpee','09359228749','2022-11-11 17:52:35','approved','userist','DI11-9XZy-RHjT','164 BRGY. LATORRE, TALAVERA, NUEVA ECIJA','','',61),
+(144,'ADS2022-11-62-jEYc-Fj0Y','Myraflor ','Enrile','','  ','March9@gmail.com','$2y$10$juTie1xQT72hspho.7c4wu9gmi4va.C3bhzB8ajRlc3D80YoDmxqa','09977580262','2022-11-11 18:03:19','approved','userist','DI11-dGOA-e8wi','Purok 7 San Marcos Calumpit Bulacan','','',62),
+(145,'ADS2022-11-63-3Fwq-oZk2','Ernest V.','Navarro  ','','  ','june21@gmail.com','$2y$10$5I45RyyHZqzENP7q/mqgaeRTvTvgqRSlLWa/ToQDRZZmdGQGGOhZC','09072852993','2022-11-11 18:10:01','approved','userist','DI11-yEtD-pij7','No.13 Saint Simon St. Dreamland Subd. Banaba San Mateo Rizal','','',63),
+(146,'ADS2022-11-64-qgU7-X31r',' Beverly','Odvina','','  ','october8@gmail.com','$2y$10$/zvU/SWkz0QTC1HzxKsslOtIujnop5bkpHumiaW6tSxQe/KDYUE/u','09637304060','2022-11-11 18:21:53','approved','userist','DI11-ni0x-AakY','Cuevas Subdivision. Salcedo 1, Noveleta, Cavite','','',64),
+(147,'ADS2022-11-65-qZjh-Yb1R','Jose','Gamer','','  ','may22@gmail.com','$2y$10$dYBRNuFY5JfEspgapL6.3.cX7kZw/AZ84OjhjlXZfBgC1T0nMTMKa','09395004889','2022-11-11 18:32:12','approved','userist','DI11-1wFs-cdSQ','91A. Aluna St. Brgy. Balongbato Sanjuan City Metro Manila','','',65),
+(148,'ADS2022-11-66-wzKN-oXq0','Emelie R.','Ramos','','  ','february16@gmail.com','$2y$10$zBAhluo21edWAS0u7V5a8O4JuTbOgKqqvyvbPQ24nqKqBrUpSgYZ.','09533547354','2022-11-11 18:50:48','approved','userist','DI11-upaf-1T2v','District3 Block 23 Lot. 26 Pandacaqui Rest Mexico Pampngga 2022:#Feb 16','','',66),
+(149,'ADS2022-11-67-kpNo-xlyE','Marlon','Sicat','','  ','february3@gmail.com','$2y$10$oGf3/6nAj.yMV..Zn0Iny.f1tfHuDLGAxo7RFgvFZJ2prrO.tnqzC','09171826977','2022-11-11 19:13:12','approved','userist','DI11-mczi-sYBK','Dolaoan Anda, Pangasina','','',67),
+(150,'ADS2022-11-68-W3YV-NRng','Michelle Tan','Manalo','','  ','february2@gmail.com','$2y$10$AGvTZJIuTnlks5vr/X6gOOTA2GEfFRPoswVP2P0iRmqBdv7UG/rtO','09338688712','2022-11-11 19:23:39','approved','userist','DI11-vgxK-EtFV','  Lot 40 Blk 3 Thunderbird St Cristina Homes Sambat San Pascual Batangas','','',68),
+(151,'ADS2022-11-69-iWj7-PjlH','Editha R.','Arquero','','  ','april12@gmail.com','$2y$10$JreEPtTjc04glARESvq0ne3kNBRqYkrn2El1iyaUwS4MxJaFmnMZi','09258382361','2022-11-11 19:31:27','approved','userist','DI11-WQ12-6Ww3','599 Rosal St Sta Romana Subd Brgy. Abar 1st San Jose City N. Ecija','','',69),
+(152,'ADS2022-11-70-H5jX-Eerx','Evangeline','Nudo','','  ','february5@gmail.com','$2y$10$aGioNr8bkYDl8KOU3/CYq.wPSvB.a8I4QHQ2zWBqazLJ2q18USkh2','09434009253','2022-11-11 19:38:52','approved','userist','DI11-0oqz-viEu','Black 16 Lot 2 Manggahan Liwayway Anabu 1C Imus Cavite','','',70),
+(153,'ADS2022-11-71-Zdlz-sYqb','Ramil','Canlapan','','  ','january11@gmail.com','$2y$10$zfxor/CQQGQVICLro9HEaeCH8xvAle.npLI0eSPU32eRUfsf1h6qi','09232527091','2022-11-11 20:02:15','approved','userist','DI11-cgh7-e4DY','Purok 1 Mancatian Porac Pampangga','','',71),
+(154,'ADS2022-11-72-UbrC-HOoe','Glaiza G.','Salting','','  ','march29@gmail.com','$2y$10$i3.5NtpYyD.II660UHBOf.VcdUNalR3eLwq6Ab7hbbM3LPG5GUcr6','09100611356','2022-11-11 20:10:31','approved','userist','DI11-PJn9-PbNp','Sitio Tomoro Poblacion Anda Pangasinan','','',72),
+(155,'ADS2022-11-73-RNyC-7NFW','Marietta','Gonzales','','  ','february19@gmail.com','$2y$10$aF4pIGUmCsa6coTc8kwt8.xauR8InorsCuXICs0N.R.WVpiUxdOwS','09382643381','2022-11-11 20:17:51','approved','userist','DI11-f1Ku-9koV','Brgy Dibacong Casiguran Aurora','','',73),
+(156,'ADS2022-11-74-jwym-mH1z','Erickson','Vinturina','','  ','august8@gmail.com','$2y$10$Z90IImxPbHO6t3cVKfz1Nu4ERag4J4.luIBnYRirCaSoDycTFkdde','09271205079','2022-11-11 20:21:19','approved','userist','DI11-aA0V-yqes','Maynganay, Santa Maria, Ilocos Sur','','',74),
+(157,'ADS2022-11-75-XrRc-wJKZ','Eda','Ambay','','  ','october23@gmail.com','$2y$10$26VzLGGgWqfzu44tFZh3EutZsxdgfuCfRGwNUHM1kNyqxGlrEHViu','09099310431','2022-11-11 21:32:49','approved','userist','DI11-1vky-NHn1','block 7 lot 52 LGU Montalban height San Jose Rodriguez Rizal','','',75),
+(158,'ADS2022-11-76-gXcv-uzFi','Ma Theresa A.','Marcelino','','  ','december23@gmail.com','$2y$10$g2dRHwuJjyyQ.JTddd/fO.4REsz4ihQ1TMAWmc.fEXMvJSndJpPtG','09204520168','2022-11-11 21:52:30','approved','userist','DI11-tL0K-S709','4068 Kalayaan Brgy. Thejeros  Makati City','','',76),
+(159,'ADS2022-11-77-njoI-iNtZ','Rhea','Gevero','ADS2022-11-11-hHaf-i7sC','IT Tech   Support','geverorhea@gmail.com','$2y$10$.1LuAPewBgb6QmXcEIelDOztGZH80FgSOd1kcexVy6G7s4RvSL6b6','09088115379','2022-11-11 23:09:08','approved','userist','DI11-gdPZ-vl7C','Springtown  Bucal Tanza Cavite','123','123',77),
+(160,'ADS2022-11-78-BxCO-w4S0','Princess Noemi','Gonzales','ADS2022-11-13-zPdl-i6SA','armil  Lumogdang','princessnoemi16@gmail.com','$2y$10$Kft47smS1xswTjX3hKM6q.03pWizAu4F99pgsMFqgPBo1oVLz5arO','09776769979','2022-11-12 08:53:09','approved','userist','DI11-WNl7-IR8X','182 Anabu 1-A Imus City, Cavite','476-185-868-000','24-5279692-7',78),
+(161,'ADS2022-11-79-TGUN-bakL','Rex','Dumot','ADS2022-11-13-zPdl-i6SA','armil  Lumogdang','rexdumot@yahoo.com','$2y$10$bybIOckPss4xItBHgt45AOX4S7kttdpT8z7eC5Fev0ItqYMqXEaiW','09686659749','2022-11-12 10:40:45','approved','userist','DI11-kMlc-CciD','Dagupan Aglipay Quirino','','',79),
+(162,'ADS2022-11-80-MQxA-rBSQ','Jelyn','Mondejar','ADS2022-11-13-zPdl-i6SA','armil  Lumogdang','jelmondejar25@gmail.com','$2y$10$FXVn1cWnkUTXkcZTWsJiz.KSSxQlY4.w670xvToS682EOb/3Iqom.','09056253968','2022-11-12 11:06:21','approved','userist','DI11-IF4A-kCqH','Lot 13 Block 32 Phase 3 Workersville Punta 1 Tanza Cavite','426-450-641-000','34-2173602-8',80),
+(163,'ADS2022-11-81-u1n8-82ET','Ronald','Espinosa','ADS2022-11-35-BVFY-8Xk0','Pacita  Tambong','ronald0824@yahoo.com','$2y$10$LEk0.3yut1CUkO0jZjQdH.emI4Y7attXWGwMY8n.Z4kB.2NbIJue2','09673864843','2022-11-13 10:37:44','approved','userist','DI11-gFQ2-Nir0','Blk 82 Lit 12 Juniper Lane Robinsons Homes East San Jose Antipolo City','','3338982225',81),
+(164,'ADS2022-11-82-ZI14-LCvc','Alona','Mortel','ADS2022-11-35-BVFY-8Xk0','Pacita  Tambong','alona.mortel@yahoo.com','$2y$10$loDgCDgCuO/TEEIFRgCujeMOfI1SWncJGpvThAqwogNAz1hnhvG3u','09455312951','2022-11-13 12:12:33','approved','userist','DI11-GaAk-ZOWp','Poblacion,Agoncillo,Batangas','458 529 019 000','04 090 2142 5',82),
+(165,'ADS2022-11-83-IGNg-k3AR','Rosalinda','Esguerra','ADS2022-11-30-c9xF-Tpod','Rodalyn  Ortega','Rosalindaesguerra4@gmail.com','$2y$10$iiesel0WDxsPbYqQR3VF6.E5VKuO.bpMLdC9pMq5wP14m8OJOq1nW','09352851092','2022-11-13 12:15:48','approved','userist','DI11-Z0s2-pjcD','381 habagat st wawa 1 rosario cavite','168-660-469-000','04-3021527-4',83);
 /*!40000 ALTER TABLE `accounts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -243,7 +266,7 @@ CREATE TABLE `rebates_points` (
   `email_address` varchar(100) NOT NULL,
   `pointsEarned` int(50) NOT NULL,
   PRIMARY KEY (`rebates_points_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=90 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=113 DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -305,7 +328,30 @@ INSERT INTO `rebates_points` VALUES
 (86,'ADS2022-11-57-wNoe-K27N','misisdenia@gmail.com',0),
 (87,'ADS2022-11-58-uf49-djZp','luzmindadelavega23@gmail.com0',0),
 (88,'ADS2022-11-59-poH2-CvWG','janemary080291@gmail.com',0),
-(89,'ADS2022-11-60-fcSg-gLDa','jennelynpujol@gmail.com',0);
+(89,'ADS2022-11-60-fcSg-gLDa','jennelynpujol@gmail.com',0),
+(90,'ADS2022-11-61-i8F0-5dgT','Februaty24@gmail.com',0),
+(91,'ADS2022-11-62-jEYc-Fj0Y','March9@gmail.com',0),
+(92,'ADS2022-11-63-3Fwq-oZk2','june21@gmail.com',0),
+(93,'ADS2022-11-64-qgU7-X31r','october8@gmail.com',0),
+(94,'ADS2022-11-65-qZjh-Yb1R','may22@gmail.com',0),
+(95,'ADS2022-11-66-wzKN-oXq0','february16@gmail.com',0),
+(96,'ADS2022-11-67-kpNo-xlyE','february3@gmail.com',0),
+(97,'ADS2022-11-68-W3YV-NRng','february2@gmail.com',0),
+(98,'ADS2022-11-69-iWj7-PjlH','april12@gmail.com',0),
+(99,'ADS2022-11-70-H5jX-Eerx','february5@gmail.com',0),
+(100,'ADS2022-11-71-Zdlz-sYqb','january11@gmail.com',0),
+(101,'ADS2022-11-72-UbrC-HOoe','march29@gmail.com',0),
+(102,'ADS2022-11-73-RNyC-7NFW','february19@gmail.com',0),
+(103,'ADS2022-11-74-jwym-mH1z','august8@gmail.com',0),
+(104,'ADS2022-11-75-XrRc-wJKZ','october23@gmail.com',0),
+(105,'ADS2022-11-76-gXcv-uzFi','december23@gmail.com',0),
+(106,'ADS2022-11-77-njoI-iNtZ','geverorhea@gmail.com',0),
+(107,'ADS2022-11-78-BxCO-w4S0','princessnoemi16@gmail.com',0),
+(108,'ADS2022-11-79-TGUN-bakL','rexdumot@yahoo.com',0),
+(109,'ADS2022-11-80-MQxA-rBSQ','jelmondejar25@gmail.com',0),
+(110,'ADS2022-11-81-u1n8-82ET','ronald0824@yahoo.com',0),
+(111,'ADS2022-11-82-ZI14-LCvc','alona.mortel@yahoo.com',0),
+(112,'ADS2022-11-83-IGNg-k3AR','Rosalindaesguerra4@gmail.com',0);
 /*!40000 ALTER TABLE `rebates_points` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -365,7 +411,7 @@ CREATE TABLE `referral_codes` (
   `codetype` varchar(2) NOT NULL,
   `counter` varchar(50) NOT NULL,
   PRIMARY KEY (`transaction_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=170 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=171 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -426,7 +472,7 @@ INSERT INTO `referral_codes` VALUES
 ('2022-11-08 13:29:51','waiting','2022-11-08 13:29:51',NULL,NULL,'2022-11-08 13:29:51','to_redeem','DI11-yoQn-T0Dc','AT11-Xva1IwYGhCkznBAS',50,'DI','10'),
 ('2022-11-08 13:29:51','waiting','2022-11-08 13:29:51',NULL,NULL,'2022-11-08 13:29:51','to_redeem','DI11-AboP-vz1f','AT11-Xva1IwYGhCkznBAS',51,'DI','10'),
 ('2022-11-08 13:29:51','waiting','2022-11-08 13:29:51',NULL,NULL,'2022-11-08 13:29:51','to_redeem','DI11-SoDu-b97w','AT11-Xva1IwYGhCkznBAS',52,'DI','10'),
-('2022-11-08 13:29:51','waiting','2022-11-08 13:29:51',NULL,NULL,'2022-11-08 13:29:51','to_redeem','DI11-IF4A-kCqH','AT11-Xva1IwYGhCkznBAS',53,'DI','10'),
+('2022-11-08 13:29:51','waiting','2022-11-08 13:29:51','ADS2022-11-80-MQxA-rBSQ',NULL,'2022-11-08 13:29:51','used','DI11-IF4A-kCqH','AT11-Xva1IwYGhCkznBAS',53,'DI','10'),
 ('2022-11-08 13:52:58','waiting','2022-11-08 13:52:58','ADS2022-11-26-kVhI-XvPm',NULL,'2022-11-08 13:52:58','used','DI11-ZWeV-Dw2j','AT11-twVviRex6SJIXBZq',54,'DI','7'),
 ('2022-11-08 13:52:58','waiting','2022-11-08 13:52:58','ADS2022-11-28-NQhx-pa7t',NULL,'2022-11-08 13:52:58','used','DI11-v3il-fAZ3','AT11-twVviRex6SJIXBZq',55,'DI','7'),
 ('2022-11-08 13:52:58','waiting','2022-11-08 13:52:58',NULL,NULL,'2022-11-08 13:52:58','to_redeem','DI11-utrz-bgwG','AT11-twVviRex6SJIXBZq',56,'DI','7'),
@@ -434,7 +480,7 @@ INSERT INTO `referral_codes` VALUES
 ('2022-11-08 13:52:58','waiting','2022-11-08 13:52:58',NULL,NULL,'2022-11-08 13:52:58','to_redeem','DI11-Nask-pcFA','AT11-twVviRex6SJIXBZq',58,'DI','7'),
 ('2022-11-08 13:52:58','waiting','2022-11-08 13:52:58','ADS2022-11-53-ETzv-LNnU',NULL,'2022-11-08 13:52:58','used','DI11-TEWo-8h9s','AT11-twVviRex6SJIXBZq',59,'DI','7'),
 ('2022-11-08 13:52:58','waiting','2022-11-08 13:52:58','ADS2022-11-32-uTWy-QuRx',NULL,'2022-11-08 13:52:58','used','DI11-kYT5-GYET','AT11-twVviRex6SJIXBZq',60,'DI','7'),
-('2022-11-08 14:03:20','waiting','2022-11-08 14:03:20',NULL,NULL,'2022-11-08 14:03:20','to_redeem','DI11-WNl7-IR8X','AT11-3hMo1GTbQJ8nfOKF',61,'DI','10'),
+('2022-11-08 14:03:20','waiting','2022-11-08 14:03:20','ADS2022-11-78-BxCO-w4S0',NULL,'2022-11-08 14:03:20','used','DI11-WNl7-IR8X','AT11-3hMo1GTbQJ8nfOKF',61,'DI','10'),
 ('2022-11-08 14:03:20','waiting','2022-11-08 14:03:20','ADS2022-11-39-TXz6-oCkX',NULL,'2022-11-08 14:03:20','used','DI11-XGIw-QX8Y','AT11-3hMo1GTbQJ8nfOKF',62,'DI','10'),
 ('2022-11-08 14:03:20','waiting','2022-11-08 14:03:20','ADS2022-11-57-wNoe-K27N',NULL,'2022-11-08 14:03:20','used','DI11-2Q7O-PmlU','AT11-3hMo1GTbQJ8nfOKF',63,'DI','10'),
 ('2022-11-08 14:03:20','waiting','2022-11-08 14:03:20','ADS2022-11-48-GN9u-kxQE',NULL,'2022-11-08 14:03:20','used','DI11-5jbn-tCsK','AT11-3hMo1GTbQJ8nfOKF',64,'DI','10'),
@@ -468,22 +514,22 @@ INSERT INTO `referral_codes` VALUES
 ('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-54-5O3Y-B5UR',NULL,'2022-11-09 10:51:17','used','DI11-VhBY-8zyX','AT11-t9Qf3Av7qpBx6M0J',92,'DI','20'),
 ('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-55-FEw6-cIPR',NULL,'2022-11-09 10:51:17','used','DI11-kpH7-1zbB','AT11-t9Qf3Av7qpBx6M0J',93,'DI','20'),
 ('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-56-dtpM-YD52',NULL,'2022-11-09 10:51:17','used','DI11-wxCH-QH6z','AT11-t9Qf3Av7qpBx6M0J',94,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-aA0V-yqes','AT11-t9Qf3Av7qpBx6M0J',95,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-9XZy-RHjT','AT11-t9Qf3Av7qpBx6M0J',96,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-dGOA-e8wi','AT11-t9Qf3Av7qpBx6M0J',97,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-yEtD-pij7','AT11-t9Qf3Av7qpBx6M0J',98,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-ni0x-AakY','AT11-t9Qf3Av7qpBx6M0J',99,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-1wFs-cdSQ','AT11-t9Qf3Av7qpBx6M0J',100,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-upaf-1T2v','AT11-t9Qf3Av7qpBx6M0J',101,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-mczi-sYBK','AT11-t9Qf3Av7qpBx6M0J',102,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-vgxK-EtFV','AT11-t9Qf3Av7qpBx6M0J',103,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-WQ12-6Ww3','AT11-t9Qf3Av7qpBx6M0J',104,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-0oqz-viEu','AT11-t9Qf3Av7qpBx6M0J',105,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-cgh7-e4DY','AT11-t9Qf3Av7qpBx6M0J',106,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-PJn9-PbNp','AT11-t9Qf3Av7qpBx6M0J',107,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-f1Ku-9koV','AT11-t9Qf3Av7qpBx6M0J',108,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-1vky-NHn1','AT11-t9Qf3Av7qpBx6M0J',109,'DI','20'),
-('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17',NULL,NULL,'2022-11-09 10:51:17','to_redeem','DI11-tL0K-S709','AT11-t9Qf3Av7qpBx6M0J',110,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-74-jwym-mH1z',NULL,'2022-11-09 10:51:17','used','DI11-aA0V-yqes','AT11-t9Qf3Av7qpBx6M0J',95,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-61-i8F0-5dgT',NULL,'2022-11-09 10:51:17','used','DI11-9XZy-RHjT','AT11-t9Qf3Av7qpBx6M0J',96,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-62-jEYc-Fj0Y',NULL,'2022-11-09 10:51:17','used','DI11-dGOA-e8wi','AT11-t9Qf3Av7qpBx6M0J',97,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-63-3Fwq-oZk2',NULL,'2022-11-09 10:51:17','used','DI11-yEtD-pij7','AT11-t9Qf3Av7qpBx6M0J',98,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-64-qgU7-X31r',NULL,'2022-11-09 10:51:17','used','DI11-ni0x-AakY','AT11-t9Qf3Av7qpBx6M0J',99,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-65-qZjh-Yb1R',NULL,'2022-11-09 10:51:17','used','DI11-1wFs-cdSQ','AT11-t9Qf3Av7qpBx6M0J',100,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-66-wzKN-oXq0',NULL,'2022-11-09 10:51:17','used','DI11-upaf-1T2v','AT11-t9Qf3Av7qpBx6M0J',101,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-67-kpNo-xlyE',NULL,'2022-11-09 10:51:17','used','DI11-mczi-sYBK','AT11-t9Qf3Av7qpBx6M0J',102,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-68-W3YV-NRng',NULL,'2022-11-09 10:51:17','used','DI11-vgxK-EtFV','AT11-t9Qf3Av7qpBx6M0J',103,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-69-iWj7-PjlH',NULL,'2022-11-09 10:51:17','used','DI11-WQ12-6Ww3','AT11-t9Qf3Av7qpBx6M0J',104,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-70-H5jX-Eerx',NULL,'2022-11-09 10:51:17','used','DI11-0oqz-viEu','AT11-t9Qf3Av7qpBx6M0J',105,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-71-Zdlz-sYqb',NULL,'2022-11-09 10:51:17','used','DI11-cgh7-e4DY','AT11-t9Qf3Av7qpBx6M0J',106,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-72-UbrC-HOoe',NULL,'2022-11-09 10:51:17','used','DI11-PJn9-PbNp','AT11-t9Qf3Av7qpBx6M0J',107,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-73-RNyC-7NFW',NULL,'2022-11-09 10:51:17','used','DI11-f1Ku-9koV','AT11-t9Qf3Av7qpBx6M0J',108,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-75-XrRc-wJKZ',NULL,'2022-11-09 10:51:17','used','DI11-1vky-NHn1','AT11-t9Qf3Av7qpBx6M0J',109,'DI','20'),
+('2022-11-09 10:51:17','waiting','2022-11-09 10:51:17','ADS2022-11-76-gXcv-uzFi',NULL,'2022-11-09 10:51:17','used','DI11-tL0K-S709','AT11-t9Qf3Av7qpBx6M0J',110,'DI','20'),
 ('2022-11-09 22:33:48','waiting','2022-11-09 22:33:48',NULL,NULL,'2022-11-09 22:33:48','to_redeem','DI11-tnoB-kRlI','AT11-up97LxQStIyc6qnB',111,'DI','15'),
 ('2022-11-09 22:33:48','waiting','2022-11-09 22:33:48','ADS2022-11-43-Y0By-z9Ym',NULL,'2022-11-09 22:33:48','used','DI11-HAlO-7Cz0','AT11-up97LxQStIyc6qnB',112,'DI','15'),
 ('2022-11-09 22:33:48','waiting','2022-11-09 22:33:48','ADS2022-11-50-2qoX-wIfk',NULL,'2022-11-09 22:33:48','used','DI11-W8br-8gH5','AT11-up97LxQStIyc6qnB',113,'DI','15'),
@@ -491,7 +537,7 @@ INSERT INTO `referral_codes` VALUES
 ('2022-11-09 22:33:48','waiting','2022-11-09 22:33:48','ADS2022-11-60-fcSg-gLDa',NULL,'2022-11-09 22:33:48','used','DI11-rAC7-C4lS','AT11-up97LxQStIyc6qnB',115,'DI','15'),
 ('2022-11-09 22:33:48','waiting','2022-11-09 22:33:48',NULL,NULL,'2022-11-09 22:33:48','to_redeem','DI11-dn3b-7uIg','AT11-up97LxQStIyc6qnB',116,'DI','15'),
 ('2022-11-09 22:33:48','waiting','2022-11-09 22:33:48',NULL,NULL,'2022-11-09 22:33:48','to_redeem','DI11-AxJv-WVvd','AT11-up97LxQStIyc6qnB',117,'DI','15'),
-('2022-11-09 22:33:48','waiting','2022-11-09 22:33:48',NULL,NULL,'2022-11-09 22:33:48','to_redeem','DI11-Z0s2-pjcD','AT11-up97LxQStIyc6qnB',118,'DI','15'),
+('2022-11-09 22:33:48','waiting','2022-11-09 22:33:48','ADS2022-11-83-IGNg-k3AR',NULL,'2022-11-09 22:33:48','used','DI11-Z0s2-pjcD','AT11-up97LxQStIyc6qnB',118,'DI','15'),
 ('2022-11-09 22:33:48','waiting','2022-11-09 22:33:48',NULL,NULL,'2022-11-09 22:33:48','to_redeem','DI11-zk86-6Apg','AT11-up97LxQStIyc6qnB',119,'DI','15'),
 ('2022-11-09 22:33:48','waiting','2022-11-09 22:33:48',NULL,NULL,'2022-11-09 22:33:48','to_redeem','DI11-vrSh-PKAp','AT11-up97LxQStIyc6qnB',120,'DI','15'),
 ('2022-11-09 22:33:48','waiting','2022-11-09 22:33:48',NULL,NULL,'2022-11-09 22:33:48','to_redeem','DI11-M39w-DIhx','AT11-up97LxQStIyc6qnB',121,'DI','15'),
@@ -510,7 +556,7 @@ INSERT INTO `referral_codes` VALUES
 ('2022-11-10 00:14:34','waiting','2022-11-10 00:14:34',NULL,NULL,'2022-11-10 00:14:34','to_redeem','RB11-mA0e-5Jk8','AT11-aprPQkMcxTIBniA0',134,'RB','1'),
 ('2022-11-10 00:27:54','waiting','2022-11-10 00:27:54','ADS2022-11-58-uf49-djZp',NULL,'2022-11-10 00:27:54','used','DI11-P9Nj-WKAD','AT11-2Eb1Hra5jCMAPVtT',135,'DI','3'),
 ('2022-11-10 00:27:54','waiting','2022-11-10 00:27:54',NULL,NULL,'2022-11-10 00:27:54','to_redeem','DI11-eTIg-qG8e','AT11-2Eb1Hra5jCMAPVtT',136,'DI','3'),
-('2022-11-10 00:27:54','waiting','2022-11-10 00:27:54',NULL,NULL,'2022-11-10 00:27:54','to_redeem','DI11-kMlc-CciD','AT11-2Eb1Hra5jCMAPVtT',137,'DI','3'),
+('2022-11-10 00:27:54','waiting','2022-11-10 00:27:54','ADS2022-11-79-TGUN-bakL',NULL,'2022-11-10 00:27:54','used','DI11-kMlc-CciD','AT11-2Eb1Hra5jCMAPVtT',137,'DI','3'),
 ('2022-11-10 00:29:46','waiting','2022-11-10 00:29:46','ADS2022-10-7','directsales@gmail.com','2022-11-10 00:29:46','used','RB11-yqdi-TG0Y','AT11-eRduNs2U4rOFChVg',138,'RB','1'),
 ('2022-11-10 00:32:33','waiting','2022-11-10 00:32:33',NULL,NULL,'2022-11-10 00:32:33','to_redeem','DI11-Xzra-eODl','AT11-naqkfzwWEtUFvGdO',139,'DI','1'),
 ('2022-11-10 00:33:05','waiting','2022-11-10 00:33:05','ADS2022-11-19-gNG4-lBHO','masangkay0313@gmail.com','2022-11-10 00:33:05','used','RA11-ausT-Zdvl','AT11-nmdHDP4GhNQI0RW2',140,'RA','2'),
@@ -528,9 +574,9 @@ INSERT INTO `referral_codes` VALUES
 ('2022-11-10 09:13:39','waiting','2022-11-10 09:13:39','ADS2022-11-49-Cdkc-8tNU',NULL,'2022-11-10 09:13:39','used','DI11-yeP0-UAuX','AT11-1ICZHrgGc9NykMhP',152,'DI','10'),
 ('2022-11-10 09:18:31','waiting','2022-11-10 09:18:31','ADS2022-11-49-Cdkc-8tNU','jeffpeachy@gmail.com','2022-11-10 09:18:31','used','RA11-Dg7Z-RA24','AT11-S8czw3xiV5GLohAZ',153,'RA','1'),
 ('2022-11-10 09:21:15','waiting','2022-11-10 09:21:15','ADS2022-11-48-GN9u-kxQE','jeffpeachy23@gmail.com','2022-11-10 09:21:15','used','RB11-kaWs-gOVJ','AT11-dDjtxicHXRqA2r1z',154,'RB','1'),
-('2022-11-10 16:53:00','waiting','2022-11-10 16:53:00',NULL,NULL,'2022-11-10 16:53:00','to_redeem','DI11-GaAk-ZOWp','AT11-9P5re8fTc13NDRZl',155,'DI','3'),
+('2022-11-10 16:53:00','waiting','2022-11-10 16:53:00','ADS2022-11-82-ZI14-LCvc',NULL,'2022-11-10 16:53:00','used','DI11-GaAk-ZOWp','AT11-9P5re8fTc13NDRZl',155,'DI','3'),
 ('2022-11-10 16:53:00','waiting','2022-11-10 16:53:00',NULL,NULL,'2022-11-10 16:53:00','to_redeem','DI11-CIDL-JFn7','AT11-9P5re8fTc13NDRZl',156,'DI','3'),
-('2022-11-10 16:53:00','waiting','2022-11-10 16:53:00',NULL,NULL,'2022-11-10 16:53:00','to_redeem','DI11-gFQ2-Nir0','AT11-9P5re8fTc13NDRZl',157,'DI','3'),
+('2022-11-10 16:53:00','waiting','2022-11-10 16:53:00','ADS2022-11-81-u1n8-82ET',NULL,'2022-11-10 16:53:00','used','DI11-gFQ2-Nir0','AT11-9P5re8fTc13NDRZl',157,'DI','3'),
 ('2022-11-10 16:53:20','waiting','2022-11-10 16:53:20',NULL,NULL,'2022-11-10 16:53:20','to_redeem','DI11-LrcT-kXiH','AT11-tdJ5QGU4XR1ziu3O',158,'DI','2'),
 ('2022-11-10 16:53:20','waiting','2022-11-10 16:53:20',NULL,NULL,'2022-11-10 16:53:20','to_redeem','DI11-pQTR-RUkx','AT11-tdJ5QGU4XR1ziu3O',159,'DI','2'),
 ('2022-11-10 18:55:10','waiting','2022-11-10 18:55:10',NULL,NULL,'2022-11-10 18:55:10','to_redeem','DI11-0onq-DH4t','AT11-abgGlAQNJo0Unpew',160,'DI','10'),
@@ -542,7 +588,8 @@ INSERT INTO `referral_codes` VALUES
 ('2022-11-10 18:55:10','waiting','2022-11-10 18:55:10',NULL,NULL,'2022-11-10 18:55:10','to_redeem','DI11-cGvE-QA8w','AT11-abgGlAQNJo0Unpew',166,'DI','10'),
 ('2022-11-10 18:55:10','waiting','2022-11-10 18:55:10',NULL,NULL,'2022-11-10 18:55:10','to_redeem','DI11-kgnc-o971','AT11-abgGlAQNJo0Unpew',167,'DI','10'),
 ('2022-11-10 18:55:10','waiting','2022-11-10 18:55:10',NULL,NULL,'2022-11-10 18:55:10','to_redeem','DI11-XjU7-GSj3','AT11-abgGlAQNJo0Unpew',168,'DI','10'),
-('2022-11-10 18:55:10','waiting','2022-11-10 18:55:10',NULL,NULL,'2022-11-10 18:55:10','to_redeem','DI11-twgK-M91B','AT11-abgGlAQNJo0Unpew',169,'DI','10');
+('2022-11-10 18:55:10','waiting','2022-11-10 18:55:10',NULL,NULL,'2022-11-10 18:55:10','to_redeem','DI11-twgK-M91B','AT11-abgGlAQNJo0Unpew',169,'DI','10'),
+('2022-11-11 23:03:56','waiting','2022-11-11 23:03:56','ADS2022-11-77-njoI-iNtZ',NULL,'2022-11-11 23:03:56','used','DI11-gdPZ-vl7C','AT11-yGpWLlkAgPaJjCoD',170,'DI','1');
 /*!40000 ALTER TABLE `referral_codes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -561,7 +608,7 @@ CREATE TABLE `totalbalance` (
   `unclaimable` int(50) NOT NULL,
   `totalIncome` int(100) NOT NULL,
   PRIMARY KEY (`totalBalanceId`)
-) ENGINE=InnoDB AUTO_INCREMENT=166 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=189 DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -571,12 +618,12 @@ CREATE TABLE `totalbalance` (
 LOCK TABLES `totalbalance` WRITE;
 /*!40000 ALTER TABLE `totalbalance` DISABLE KEYS */;
 INSERT INTO `totalbalance` VALUES
-(77,'ADS2022-10-7','directsales@gmail.com',1100,0,0),
+(77,'ADS2022-10-7','directsales@gmail.com',1170,0,0),
 (107,'ADS2022-11-8-eqNy-l47b','mr.armillumogdang@yahoo.com',20,0,0),
-(115,'ADS2022-11-10-Q8t2-xiMD','healinggaling2020@yahoo.com',920,220,0),
-(116,'ADS2022-11-11-hHaf-i7sC','nacksph@gmail.com',910,310,0),
+(115,'ADS2022-11-10-Q8t2-xiMD','healinggaling2020@yahoo.com',990,220,0),
+(116,'ADS2022-11-11-hHaf-i7sC','nacksph@gmail.com',1470,310,0),
 (117,'ADS2022-11-12-OZN1-A2J4','mr.armillumogdang@yahoo.com',500,0,0),
-(118,'ADS2022-11-13-zPdl-i6SA','mr.arvielumogdang@yahoo.com',10090,0,0),
+(118,'ADS2022-11-13-zPdl-i6SA','mr.arvielumogdang@yahoo.com',11620,0,0),
 (119,'ADS2022-11-14-YI5d-DqRa','almedapatrick17@gmail.com',0,0,0),
 (120,'ADS2022-11-15-ClMJ-SzyW','carissa.aquino1@gmail.com',0,0,0),
 (121,'ADS2022-11-16-bEQ2-gpFq','custodioleny77@gmail.com',4520,0,0),
@@ -593,12 +640,12 @@ INSERT INTO `totalbalance` VALUES
 (132,'ADS2022-11-27-twTE-wW7U','ypibadong@yahoo.com',0,0,0),
 (133,'ADS2022-11-28-NQhx-pa7t','jhorafon@gmail.com',0,0,0),
 (134,'ADS2022-11-29-q2Oz-3iBE','rubyjane.palanog@gmail.com',0,0,0),
-(135,'ADS2022-11-30-c9xF-Tpod','odaiski26@gmail.com',1500,0,0),
+(135,'ADS2022-11-30-c9xF-Tpod','odaiski26@gmail.com',2000,0,0),
 (136,'ADS2022-11-31-zxK1-tm8Y','johnrhodlaye@gmail.com',0,0,0),
 (137,'ADS2022-11-32-uTWy-QuRx','sha098915@gmail.com',0,0,0),
 (138,'ADS2022-11-33-JdQN-Fwx9','rosalindatumacder@gmail.com',0,0,0),
 (139,'ADS2022-11-34-QPru-Km6S','mbucal@gmail.com',0,0,0),
-(140,'ADS2022-11-35-BVFY-8Xk0','pacitatambong15@gmail.com',2020,0,0),
+(140,'ADS2022-11-35-BVFY-8Xk0','pacitatambong15@gmail.com',3020,0,0),
 (141,'ADS2022-11-36-sZaA-OaKi','orly02bomlife@gmail.com',0,0,0),
 (142,'ADS2022-11-37-nLhu-DICv','saldyg3267@gmail.com',0,0,0),
 (143,'ADS2022-11-38-oNkO-e9bi','june20@gmail.com',0,0,0),
@@ -623,7 +670,30 @@ INSERT INTO `totalbalance` VALUES
 (162,'ADS2022-11-57-wNoe-K27N','misisdenia@gmail.com',0,0,0),
 (163,'ADS2022-11-58-uf49-djZp','luzmindadelavega23@gmail.com0',0,0,0),
 (164,'ADS2022-11-59-poH2-CvWG','janemary080291@gmail.com',0,0,0),
-(165,'ADS2022-11-60-fcSg-gLDa','jennelynpujol@gmail.com',0,0,0);
+(165,'ADS2022-11-60-fcSg-gLDa','jennelynpujol@gmail.com',0,0,0),
+(166,'ADS2022-11-61-i8F0-5dgT','Februaty24@gmail.com',0,0,0),
+(167,'ADS2022-11-62-jEYc-Fj0Y','March9@gmail.com',0,0,0),
+(168,'ADS2022-11-63-3Fwq-oZk2','june21@gmail.com',0,0,0),
+(169,'ADS2022-11-64-qgU7-X31r','october8@gmail.com',0,0,0),
+(170,'ADS2022-11-65-qZjh-Yb1R','may22@gmail.com',0,0,0),
+(171,'ADS2022-11-66-wzKN-oXq0','february16@gmail.com',0,0,0),
+(172,'ADS2022-11-67-kpNo-xlyE','february3@gmail.com',0,0,0),
+(173,'ADS2022-11-68-W3YV-NRng','february2@gmail.com',0,0,0),
+(174,'ADS2022-11-69-iWj7-PjlH','april12@gmail.com',0,0,0),
+(175,'ADS2022-11-70-H5jX-Eerx','february5@gmail.com',0,0,0),
+(176,'ADS2022-11-71-Zdlz-sYqb','january11@gmail.com',0,0,0),
+(177,'ADS2022-11-72-UbrC-HOoe','march29@gmail.com',0,0,0),
+(178,'ADS2022-11-73-RNyC-7NFW','february19@gmail.com',0,0,0),
+(179,'ADS2022-11-74-jwym-mH1z','august8@gmail.com',0,0,0),
+(180,'ADS2022-11-75-XrRc-wJKZ','october23@gmail.com',0,0,0),
+(181,'ADS2022-11-76-gXcv-uzFi','december23@gmail.com',0,0,0),
+(182,'ADS2022-11-77-njoI-iNtZ','geverorhea@gmail.com',0,0,0),
+(183,'ADS2022-11-78-BxCO-w4S0','princessnoemi16@gmail.com',0,0,0),
+(184,'ADS2022-11-79-TGUN-bakL','rexdumot@yahoo.com',0,0,0),
+(185,'ADS2022-11-80-MQxA-rBSQ','jelmondejar25@gmail.com',0,0,0),
+(186,'ADS2022-11-81-u1n8-82ET','ronald0824@yahoo.com',0,0,0),
+(187,'ADS2022-11-82-ZI14-LCvc','alona.mortel@yahoo.com',0,0,0),
+(188,'ADS2022-11-83-IGNg-k3AR','Rosalindaesguerra4@gmail.com',0,0,0);
 /*!40000 ALTER TABLE `totalbalance` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -653,7 +723,7 @@ CREATE TABLE `transaction` (
   `totalPoints` int(50) DEFAULT 0,
   `transactionIdBasis` int(11) NOT NULL,
   PRIMARY KEY (`transactionId`)
-) ENGINE=InnoDB AUTO_INCREMENT=298 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=351 DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -959,7 +1029,60 @@ INSERT INTO `transaction` VALUES
 (294,'TR-20221011294','2022-11-10','09:16 pm','Indirect Referral','IT Tech   Support','ADS2022-11-11-hHaf-i7sC','Jennelyn Pujol','Rodalyn Ortega',NULL,NULL,NULL,10,910,0,0,294),
 (295,'TR-20221011295','2022-11-10','09:16 pm','Indirect Referral','ACSPT  BOSS','ADS2022-11-10-Q8t2-xiMD','Jennelyn Pujol','Rodalyn Ortega',NULL,NULL,NULL,10,920,0,0,295),
 (296,'TR-20221011296','2022-11-10','09:16 pm','Indirect Referral','Direct  Sales','ADS2022-10-7','Jennelyn Pujol','Rodalyn Ortega',NULL,NULL,NULL,10,1100,0,0,296),
-(297,'TR-20221011297','2022-11-10','09:16 pm','Indirect Referral','None','n/a','Jennelyn Pujol','Rodalyn Ortega',NULL,NULL,NULL,10,10,0,0,297);
+(297,'TR-20221011297','2022-11-10','09:16 pm','Indirect Referral','None','n/a','Jennelyn Pujol','Rodalyn Ortega',NULL,NULL,NULL,10,10,0,0,297),
+(298,'TR-20221111298','2022-11-11','04:52 pm','Direct Referral','','','ROMULO ARENAS',' ',NULL,NULL,NULL,500,500,0,0,298),
+(299,'TR-20221111299','2022-11-11','05:03 pm','Direct Referral','','','Myraflor  Enrile',' ',NULL,NULL,NULL,500,500,0,0,299),
+(300,'TR-20221111300','2022-11-11','05:10 pm','Direct Referral','','','Ernest V. Navarro  ',' ',NULL,NULL,NULL,500,500,0,0,300),
+(301,'TR-20221111301','2022-11-11','05:21 pm','Direct Referral','','',' Beverly Odvina',' ',NULL,NULL,NULL,500,500,0,0,301),
+(302,'TR-20221111302','2022-11-11','05:32 pm','Direct Referral','','','Jose Gamer',' ',NULL,NULL,NULL,500,500,0,0,302),
+(303,'TR-20221111303','2022-11-11','05:50 pm','Direct Referral','','','Emelie R. Ramos',' ',NULL,NULL,NULL,500,500,0,0,303),
+(304,'TR-20221111304','2022-11-11','06:13 pm','Direct Referral','','','Marlon Sicat',' ',NULL,NULL,NULL,500,500,0,0,304),
+(305,'TR-20221111305','2022-11-11','06:23 pm','Direct Referral','','','Michelle Tan Manalo',' ',NULL,NULL,NULL,500,500,0,0,305),
+(306,'TR-20221111306','2022-11-11','06:31 pm','Direct Referral','','','Editha R. Arquero',' ',NULL,NULL,NULL,500,500,0,0,306),
+(307,'TR-20221111307','2022-11-11','06:38 pm','Direct Referral','','','Evangeline Nudo',' ',NULL,NULL,NULL,500,500,0,0,307),
+(308,'TR-20221111308','2022-11-11','07:02 pm','Direct Referral','','','Ramil Canlapan',' ',NULL,NULL,NULL,500,500,0,0,308),
+(309,'TR-20221111309','2022-11-11','07:10 pm','Direct Referral','','','Glaiza G. Salting',' ',NULL,NULL,NULL,500,500,0,0,309),
+(310,'TR-20221111310','2022-11-11','07:17 pm','Direct Referral','','','Marietta Gonzales',' ',NULL,NULL,NULL,500,500,0,0,310),
+(311,'TR-20221111311','2022-11-11','07:21 pm','Direct Referral','','','Erickson Vinturina',' ',NULL,NULL,NULL,500,500,0,0,311),
+(312,'TR-20221111312','2022-11-11','08:32 pm','Direct Referral','','','Eda Ambay',' ',NULL,NULL,NULL,500,500,0,0,312),
+(313,'TR-20221111313','2022-11-11','08:52 pm','Direct Referral','','','Ma Theresa A. Marcelino',' ',NULL,NULL,NULL,500,500,0,0,313),
+(314,'TR-20221111314','2022-11-11','10:09 pm','Direct Referral','nacksph@gmail.com','ADS2022-11-11-hHaf-i7sC','Rhea Gevero','IT Tech  Support',NULL,NULL,NULL,500,1410,0,0,314),
+(315,'TR-20221111315','2022-11-11','10:09 pm','Indirect Referral','ACSPT  BOSS','ADS2022-11-10-Q8t2-xiMD','Rhea Gevero','IT Tech  Support',NULL,NULL,NULL,10,930,0,0,315),
+(316,'TR-20221111316','2022-11-11','10:09 pm','Indirect Referral','Direct  Sales','ADS2022-10-7','Rhea Gevero','IT Tech  Support',NULL,NULL,NULL,10,1110,0,0,316),
+(317,'TR-20221111317','2022-11-11','10:09 pm','Indirect Referral','None','n/a','Rhea Gevero','IT Tech  Support',NULL,NULL,NULL,10,10,0,0,317),
+(318,'TR-20221211318','2022-11-12','07:53 am','Direct Referral','mr.arvielumogdang@yahoo.com','ADS2022-11-13-zPdl-i6SA','Princess Noemi Gonzales','armil Lumogdang',NULL,NULL,NULL,500,10590,0,0,318),
+(319,'TR-20221211319','2022-11-12','07:53 am','Indirect Referral','IT Tech   Support','ADS2022-11-11-hHaf-i7sC','Princess Noemi Gonzales','armil Lumogdang',NULL,NULL,NULL,10,1420,0,0,319),
+(320,'TR-20221211320','2022-11-12','07:53 am','Indirect Referral','ACSPT  BOSS','ADS2022-11-10-Q8t2-xiMD','Princess Noemi Gonzales','armil Lumogdang',NULL,NULL,NULL,10,940,0,0,320),
+(321,'TR-20221211321','2022-11-12','07:53 am','Indirect Referral','Direct  Sales','ADS2022-10-7','Princess Noemi Gonzales','armil Lumogdang',NULL,NULL,NULL,10,1120,0,0,321),
+(322,'TR-20221211322','2022-11-12','07:53 am','Indirect Referral','None','n/a','Princess Noemi Gonzales','armil Lumogdang',NULL,NULL,NULL,10,10,0,0,322),
+(323,'TR-20221211323','2022-11-12','09:40 am','Direct Referral','mr.arvielumogdang@yahoo.com','ADS2022-11-13-zPdl-i6SA','Rex Dumot','armil Lumogdang',NULL,NULL,NULL,500,11090,0,0,323),
+(324,'TR-20221211324','2022-11-12','09:40 am','Indirect Referral','IT Tech   Support','ADS2022-11-11-hHaf-i7sC','Rex Dumot','armil Lumogdang',NULL,NULL,NULL,10,1430,0,0,324),
+(325,'TR-20221211325','2022-11-12','09:40 am','Indirect Referral','ACSPT  BOSS','ADS2022-11-10-Q8t2-xiMD','Rex Dumot','armil Lumogdang',NULL,NULL,NULL,10,950,0,0,325),
+(326,'TR-20221211326','2022-11-12','09:40 am','Indirect Referral','Direct  Sales','ADS2022-10-7','Rex Dumot','armil Lumogdang',NULL,NULL,NULL,10,1130,0,0,326),
+(327,'TR-20221211327','2022-11-12','09:40 am','Indirect Referral','None','n/a','Rex Dumot','armil Lumogdang',NULL,NULL,NULL,10,10,0,0,327),
+(328,'TR-20221211328','2022-11-12','10:06 am','Direct Referral','mr.arvielumogdang@yahoo.com','ADS2022-11-13-zPdl-i6SA','Jelyn Mondejar','armil Lumogdang',NULL,NULL,NULL,500,11590,0,0,328),
+(329,'TR-20221211329','2022-11-12','10:06 am','Indirect Referral','IT Tech   Support','ADS2022-11-11-hHaf-i7sC','Jelyn Mondejar','armil Lumogdang',NULL,NULL,NULL,10,1440,0,0,329),
+(330,'TR-20221211330','2022-11-12','10:06 am','Indirect Referral','ACSPT  BOSS','ADS2022-11-10-Q8t2-xiMD','Jelyn Mondejar','armil Lumogdang',NULL,NULL,NULL,10,960,0,0,330),
+(331,'TR-20221211331','2022-11-12','10:06 am','Indirect Referral','Direct  Sales','ADS2022-10-7','Jelyn Mondejar','armil Lumogdang',NULL,NULL,NULL,10,1140,0,0,331),
+(332,'TR-20221211332','2022-11-12','10:06 am','Indirect Referral','None','n/a','Jelyn Mondejar','armil Lumogdang',NULL,NULL,NULL,10,10,0,0,332),
+(333,'TR-20221311333','2022-11-13','09:37 am','Direct Referral','pacitatambong15@gmail.com','ADS2022-11-35-BVFY-8Xk0','Ronald Espinosa','Pacita Tambong',NULL,NULL,NULL,500,2520,0,0,333),
+(334,'TR-20221311334','2022-11-13','09:37 am','Indirect Referral','armil  Lumogdang','ADS2022-11-13-zPdl-i6SA','Ronald Espinosa','Pacita Tambong',NULL,NULL,NULL,10,11600,0,0,334),
+(335,'TR-20221311335','2022-11-13','09:37 am','Indirect Referral','IT Tech   Support','ADS2022-11-11-hHaf-i7sC','Ronald Espinosa','Pacita Tambong',NULL,NULL,NULL,10,1450,0,0,335),
+(336,'TR-20221311336','2022-11-13','09:37 am','Indirect Referral','ACSPT  BOSS','ADS2022-11-10-Q8t2-xiMD','Ronald Espinosa','Pacita Tambong',NULL,NULL,NULL,10,970,0,0,336),
+(337,'TR-20221311337','2022-11-13','09:37 am','Indirect Referral','Direct  Sales','ADS2022-10-7','Ronald Espinosa','Pacita Tambong',NULL,NULL,NULL,10,1150,0,0,337),
+(338,'TR-20221311338','2022-11-13','09:37 am','Indirect Referral','None','n/a','Ronald Espinosa','Pacita Tambong',NULL,NULL,NULL,10,10,0,0,338),
+(339,'TR-20221311339','2022-11-13','11:12 am','Direct Referral','pacitatambong15@gmail.com','ADS2022-11-35-BVFY-8Xk0','Alona Mortel','Pacita Tambong',NULL,NULL,NULL,500,3020,0,0,339),
+(340,'TR-20221311340','2022-11-13','11:12 am','Indirect Referral','armil  Lumogdang','ADS2022-11-13-zPdl-i6SA','Alona Mortel','Pacita Tambong',NULL,NULL,NULL,10,11610,0,0,340),
+(341,'TR-20221311341','2022-11-13','11:12 am','Indirect Referral','IT Tech   Support','ADS2022-11-11-hHaf-i7sC','Alona Mortel','Pacita Tambong',NULL,NULL,NULL,10,1460,0,0,341),
+(342,'TR-20221311342','2022-11-13','11:12 am','Indirect Referral','ACSPT  BOSS','ADS2022-11-10-Q8t2-xiMD','Alona Mortel','Pacita Tambong',NULL,NULL,NULL,10,980,0,0,342),
+(343,'TR-20221311343','2022-11-13','11:12 am','Indirect Referral','Direct  Sales','ADS2022-10-7','Alona Mortel','Pacita Tambong',NULL,NULL,NULL,10,1160,0,0,343),
+(344,'TR-20221311344','2022-11-13','11:12 am','Indirect Referral','None','n/a','Alona Mortel','Pacita Tambong',NULL,NULL,NULL,10,10,0,0,344),
+(345,'TR-20221311345','2022-11-13','11:15 am','Direct Referral','odaiski26@gmail.com','ADS2022-11-30-c9xF-Tpod','Rosalinda Esguerra','Rodalyn Ortega',NULL,NULL,NULL,500,2000,0,0,345),
+(346,'TR-20221311346','2022-11-13','11:15 am','Indirect Referral','armil  Lumogdang','ADS2022-11-13-zPdl-i6SA','Rosalinda Esguerra','Rodalyn Ortega',NULL,NULL,NULL,10,11620,0,0,346),
+(347,'TR-20221311347','2022-11-13','11:15 am','Indirect Referral','IT Tech   Support','ADS2022-11-11-hHaf-i7sC','Rosalinda Esguerra','Rodalyn Ortega',NULL,NULL,NULL,10,1470,0,0,347),
+(348,'TR-20221311348','2022-11-13','11:15 am','Indirect Referral','ACSPT  BOSS','ADS2022-11-10-Q8t2-xiMD','Rosalinda Esguerra','Rodalyn Ortega',NULL,NULL,NULL,10,990,0,0,348),
+(349,'TR-20221311349','2022-11-13','11:15 am','Indirect Referral','Direct  Sales','ADS2022-10-7','Rosalinda Esguerra','Rodalyn Ortega',NULL,NULL,NULL,10,1170,0,0,349),
+(350,'TR-20221311350','2022-11-13','11:15 am','Indirect Referral','None','n/a','Rosalinda Esguerra','Rodalyn Ortega',NULL,NULL,NULL,10,10,0,0,350);
 /*!40000 ALTER TABLE `transaction` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -972,4 +1095,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-11 14:53:08
+-- Dump completed on 2022-11-13 15:49:27
